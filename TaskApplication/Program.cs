@@ -19,42 +19,61 @@
 
 //Can use external libraries implementing algorithms - MD5
 
-
 namespace TaskApplication
 {
     class Program
     {
         static void Main(string[] args)
         {
-            while (true) 
+            while (true)
             {
                 Console.WriteLine("Choose what action you want to perform:");
-                Console.WriteLine("Synchronize folders");
-                Console.WriteLine("Exit");
+                Console.WriteLine("1.Synchronize folders");
+                Console.WriteLine("2.Exit");
                 String action = Console.ReadLine();
-                if (action.Equals("sync"))
+                switch (action)
                 {
-                    Console.Clear();
-                    Console.WriteLine("Synchronize folders");
-                    Console.WriteLine("Create file");
-                    Console.WriteLine("Copy file");
-                    Console.WriteLine("Delete file");
-                    Console.WriteLine("Exit");
-                    String action2 = Console.ReadLine();
-                    while (true) 
-                    {
-                        if (action.Equals("create")) { }
-                        else if (action.Equals("copy")) { }
-                        else if (action.Equals("delete")) { }
-                        else if (action.Equals("exit")) { break; }
-                    }
+                    case "sync":
+                        while (true)
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Synchronize folders");
+                            Console.WriteLine("1.Create file");
+                            Console.WriteLine("2.Copy file");
+                            Console.WriteLine("3.Delete file");
+                            Console.WriteLine("4.Exit");
+                            String action2 = Console.ReadLine();
+
+                            switch (action2)
+                            {
+                                case "create":
+                                    break;
+                                case "copy":
+                                    break;
+                                case "delete":
+                                    break;
+                                case "exit":
+                                    Console.Clear();
+                                    break;
+                                default:
+                                    Console.WriteLine("Invalid choice");
+                                    break;
+                            }
+                            if (action2 == "exit")
+                            {
+                                break;
+                            }
+                        }
+                        break;
+
+                    case "exit":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice!");
+                        break;
                 }
-                else if (action.Equals("exit")) 
-                {
-                    break;
-                }  
             }
-            
 
             string sourceFolder = @""; // TODO: add source folder path
             string destinationFolder = @""; // TODO: add destination folder path

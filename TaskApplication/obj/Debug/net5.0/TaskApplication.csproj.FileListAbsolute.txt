@@ -5,7 +5,6 @@ C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\Ta
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\TaskApplication.dll
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\ref\TaskApplication.dll
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\TaskApplication.pdb
-C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.csproj.AssemblyReference.cache
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.AssemblyInfoInputs.cache
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.AssemblyInfo.cs
