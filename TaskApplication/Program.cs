@@ -26,12 +26,40 @@ namespace TaskApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while (true) 
+            {
+                Console.WriteLine("Choose what action you want to perform:");
+                Console.WriteLine("Synchronize folders");
+                Console.WriteLine("Exit");
+                String action = Console.ReadLine();
+                if (action.Equals("sync"))
+                {
+                    Console.Clear();
+                    Console.WriteLine("Synchronize folders");
+                    Console.WriteLine("Create file");
+                    Console.WriteLine("Copy file");
+                    Console.WriteLine("Delete file");
+                    Console.WriteLine("Exit");
+                    String action2 = Console.ReadLine();
+                    while (true) 
+                    {
+                        if (action.Equals("create")) { }
+                        else if (action.Equals("copy")) { }
+                        else if (action.Equals("delete")) { }
+                        else if (action.Equals("exit")) { break; }
+                    }
+                }
+                else if (action.Equals("exit")) 
+                {
+                    break;
+                }  
+            }
+            
 
-            string source = @""; // TODO: add source folder path
-            string destination = @""; // TODO: add destination folder path
+            string sourceFolder = @""; // TODO: add source folder path
+            string destinationFolder = @""; // TODO: add destination folder path
 
-            syncFolders(source, destination);
+            syncFolders(sourceFolder, destinationFolder);
         }
 
         static void syncFolders(string sourceF, string destinationF)
@@ -39,8 +67,8 @@ namespace TaskApplication
 
         }
 
-        static void createFile() { }
-        static void copyFile() { }
-        static void removeFile() { }
+        static void createFile(string filePathSource, string filePathDestination) { }
+        static void copyFile(string filePathSource, string filePathDestination) { }
+        static void removeFile(string filePathSource, string filePathDestination) { }
     }
 }
