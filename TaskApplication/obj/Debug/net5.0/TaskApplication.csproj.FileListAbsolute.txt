@@ -13,3 +13,4 @@ C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\Ta
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\ref\TaskApplication.dll
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.pdb
 C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.genruntimeconfig.cache
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\obj\Debug\net5.0\TaskApplication.csproj.AssemblyReference.cache
