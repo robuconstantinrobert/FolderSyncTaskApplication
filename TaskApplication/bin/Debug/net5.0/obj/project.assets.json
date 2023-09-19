@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Laptop\\.nuget\\packages\\": {}
@@ -13,26 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\TaskApplication.csproj",
-      "projectName": "TaskApplication",
-      "projectPath": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\TaskApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\bin\\Debug\\net5.0\\net5.0.csproj",
+      "projectName": "net5.0",
+      "projectPath": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\bin\\Debug\\net5.0\\net5.0.csproj",
       "packagesPath": "C:\\Users\\Laptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\obj\\",
+      "outputPath": "C:\\Users\\Laptop\\source\\repos\\TaskApplication\\TaskApplication\\bin\\Debug\\net5.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",

@@ -1,0 +1,14 @@
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\bin\Debug\net7.0\net5.0.exe
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\bin\Debug\net7.0\net5.0.deps.json
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\bin\Debug\net7.0\net5.0.runtimeconfig.json
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\bin\Debug\net7.0\net5.0.dll
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\bin\Debug\net7.0\net5.0.pdb
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.AssemblyInfoInputs.cache
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.AssemblyInfo.cs
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.dll
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\refint\net5.0.dll
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.pdb
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\net5.0.genruntimeconfig.cache
+C:\Users\Laptop\source\repos\TaskApplication\TaskApplication\bin\Debug\net5.0\obj\Debug\net7.0\ref\net5.0.dll
