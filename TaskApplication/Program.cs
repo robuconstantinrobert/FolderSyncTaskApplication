@@ -3,7 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 
-
 namespace TaskApplication
 {
     class Program
@@ -24,13 +23,13 @@ namespace TaskApplication
 
             if (!Directory.Exists(sourceFolder) || !Directory.Exists(replicaFolder))
             {
-                Console.WriteLine("Source and replica folders must exist.");
+                Console.WriteLine("Source or destination folders are missing!");
                 return;
             }
 
             if (!File.Exists(logFilePath))
             {
-                Console.WriteLine("Log file does not exist. Creating a new one.");
+                Console.WriteLine("Creating a log file!");
                 File.Create(logFilePath).Close();
             }
 
@@ -48,7 +47,6 @@ namespace TaskApplication
             }
         }
 
-        static void createFile(string sourceFolder, string replicaFolder, string logFilePath) { }
         static void copyFile(string sourceFolder, string replicaFolder, string logFilePath) 
         {
             try
@@ -62,7 +60,6 @@ namespace TaskApplication
 
                     File.Copy(sourceFile, destFile, true);
 
-                    //Log the operation to the console  and log file
                     string logEntry = $"Copied: {sourceFile} to {destFile}";
                     Console.WriteLine(logEntry);
                     File.AppendAllText(logFilePath, logEntry + Environment.NewLine);
@@ -89,7 +86,6 @@ namespace TaskApplication
                     {
                         File.Delete(replicaFile);
 
-                        //Log the operation to the console and log the file
                         string logEntry = $"Deleted: {replicaFile}";
                         Console.WriteLine(logEntry);
                         File.AppendAllText(logFilePath, logEntry + Environment.NewLine);
