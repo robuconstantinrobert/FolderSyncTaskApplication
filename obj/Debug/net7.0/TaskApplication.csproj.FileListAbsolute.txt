@@ -1,0 +1,4 @@
+C:\Users\Laptop\source\repos\TaskApplication\obj\Debug\net7.0\TaskApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptop\source\repos\TaskApplication\obj\Debug\net7.0\TaskApplication.AssemblyInfoInputs.cache
+C:\Users\Laptop\source\repos\TaskApplication\obj\Debug\net7.0\TaskApplication.AssemblyInfo.cs
+C:\Users\Laptop\source\repos\TaskApplication\obj\Debug\net7.0\TaskApplication.csproj.CoreCompileInputs.cache
